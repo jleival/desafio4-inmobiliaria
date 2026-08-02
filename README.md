@@ -45,15 +45,18 @@ El proyecto sigue una estructura limpia y modular para facilitar la mantenibilid
 ```text
 ├── assets/
 │   ├── css/
-│   │   └── style.css              # Estilos personalizados
+│   │   └── style.css                  # Estilos personalizados
+│   ├── alquiler.png                   # Imagen descriptiva 1
+│   ├── propiedades.png                # Imagen descriptiva 2
+│   ├── venta.png                      # Imagen descriptiva 3
 │   └── js/
-│       ├── data.js                # Base de datos local (Arrays de objetos)
-│       ├── utils.js               # Funciones de renderizado e interfaces
-│       └── main.js                # Archivo principal de ejecución
-├── index.html                     # Landing page (Muestra máximo 3 propiedades por categoría)
-├── propiedades_alquiler.html      # Catálogo completo de alquileres
-├── propiedades_venta.html         # Catálogo completo de ventas
-└── README.md                      # Documentación del proyecto
+│       ├── data.js                    # Base de datos local (Arrays de objetos)
+│       ├── utils.js                   # Funciones de renderizado e interfaces
+│       └── main.js                    # Archivo principal de ejecución
+├── index.html                         # Landing page (Muestra máximo 3 propiedades por categoría)
+├── propiedades_alquiler.html          # Catálogo completo de alquileres
+├── propiedades_venta.html             # Catálogo completo de ventas
+└── README.md                          # Documentación del proyecto
 ```
 ## ⚙️ Instalación y Uso
 Debido a que este proyecto utiliza Módulos ES6 (<script type="module">), por razones de seguridad de los navegadores (políticas CORS), no se puede ejecutar simplemente abriendo el archivo .html con doble clic. Requiere un servidor local.
