@@ -1,0 +1,31 @@
+# =========================
+# Archivos ocultos de macOS
+# =========================
+
+# Archivos de metadatos de carpetas (el más común)
+.DS_Store
+.DS_Store?
+
+# Archivos de recursos y metadatos (AppleDouble)
+._*
+.AppleDouble
+
+# Iconos personalizados
+Icon\r
+
+# Otros archivos de sistema y volúmenes de Mac
+.LSOverride
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Archivos generados en discos de red (AFP, SMB)
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
