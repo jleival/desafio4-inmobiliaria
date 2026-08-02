@@ -2,6 +2,12 @@
 
 Un proyecto de desarrollo web frontend diseñado para visualizar dinámicamente un catálogo de propiedades inmobiliarias (en venta y en alquiler). Este proyecto demuestra el uso avanzado de JavaScript Vanilla (ES6) para la manipulación del DOM, renderizado dinámico de componentes y lógica condicional.
 
+# 🏡 Inmobiliaria ADL - Plataforma Dinámica de Propiedades
+
+[![Ver Demo en Vivo](https://img.shields.io/badge/Previsualizaci%C3%B3n-Ver_Demo_en_Vivo-0052CC?style=for-the-badge)](https://jleival.github.io/desafio4-inmobiliaria/)
+
+Un proyecto de desarrollo web frontend diseñado para visualizar dinámicamente un catálogo de propiedades inmobiliarias...
+
 ## 🚀 Características Principales
 
 *   **Renderizado Dinámico:** Inyección de tarjetas de propiedades en el DOM a partir de arreglos de objetos en JavaScript.
