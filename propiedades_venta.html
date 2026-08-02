@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Propiedades en Venta</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+  <!-- Usa el mismo Nav que index.html -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Inmobiliaria ADL</a>
+      <!-- ... Resto del navbar ... -->
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link active" href="propiedades_venta.html">En venta</a></li>
+          <li class="nav-item"><a class="nav-link" href="propiedades_alquiler.html">Alquiler</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container mt-5">
+    <section>
+      <h2>Todas las propiedades en venta</h2>
+      <!-- ID específico para todas las ventas -->
+      <div class="row" id="contenedor-solo-venta">
+        <!-- JS inyectará TODO el arreglo aquí -->
+      </div>
+    </section>
+  </div>
+
+  <script type="module" src="assets/js/main.js"></script>
+  <script src="https://kit.fontawesome.com/f5bdbb41e0.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
