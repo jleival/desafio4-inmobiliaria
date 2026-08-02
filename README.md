@@ -9,6 +9,26 @@ Un proyecto de desarrollo web frontend diseñado para visualizar dinámicamente 
 *   **Lógica Condicional de UI:** Cambio dinámico de iconos y colores (usando FontAwesome y clases de Bootstrap) dependiendo de las políticas de cada propiedad (permitido/prohibido fumar, se aceptan/no se aceptan mascotas).
 *   **Límites de Visualización:** Configuración algorítmica para mostrar un número limitado de propiedades (ej. 3 en la página de inicio) o el catálogo completo en las páginas de detalle.
 *   **Diseño Responsivo:** Interfaz construida con **Bootstrap 5**, asegurando una correcta visualización en dispositivos móviles y de escritorio.
+  
+## 📸 Vistas del Proyecto
+
+A continuación se muestran las distintas vistas de la plataforma, donde se aprecia el renderizado dinámico y la adaptación de los íconos según los datos de cada propiedad.
+
+### Página Principal (Inicio)
+*Muestra un máximo de 3 propiedades por categoría.*
+![Vista Principal de la Inmobiliaria](assets/img/propiedades.png)
+
+---
+
+### Catálogo de Propiedades en Venta
+*Renderizado completo del arreglo de ventas.*
+![Propiedades en Venta](assets/img/venta.png)
+
+---
+
+### Catálogo de Propiedades en Alquiler
+*Renderizado completo del arreglo de alquileres.*
+![Propiedades en Alquiler](assets/img/alquiler.png)
 
 ## 🛠️ Tecnologías Utilizadas
 
